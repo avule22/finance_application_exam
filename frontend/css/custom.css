@@ -1,0 +1,67 @@
+body {
+  background-color: #181818;
+  color: #ffffff;
+}
+
+.navbar {
+  background-color: #282828;
+}
+
+.table {
+  background-color: #282828;
+}
+
+.table th,
+.table td {
+  color: #ffffff;
+}
+
+.table-row {
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.table-row:hover {
+  background-color: #333333;
+  transform: scale(1.02);
+}
+
+.btn {
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.invalid-feedback {
+  display: none;
+  color: red;
+}
+
+.form-control.is-invalid ~ .invalid-feedback {
+  display: block;
+}
+
+.btn-btn-danger {
+  position: absolute;
+}
